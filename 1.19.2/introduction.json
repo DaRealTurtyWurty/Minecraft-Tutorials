@@ -120,10 +120,6 @@
       "content": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
-      "type": "download",
-      "content": "../modding_tutorial.json"
-    },
-    {
       "type": "line-separator"
     },
     {

@@ -37,43 +37,20 @@
       "type": "line-break"
     },
     {
+      "type": "list",
+      "content": [
+        "This is a list item",
+        "This is another list item"
+      ],
+      "ordered": false
+    },
+    {
       "type": "quote",
       "content": "This is a quote"
     },
     {
       "type": "link",
       "content": "https://google.com"
-    },
-    {
-      "type": "table",
-      "content": [
-        {
-          "type": "table-row",
-          "content": [
-            {
-              "type": "table-cell",
-              "content": "This is a table cell"
-            },
-            {
-              "type": "table-cell",
-              "content": "This is another table cell"
-            }
-          ]
-        },
-        {
-          "type": "table-row",
-          "content": [
-            {
-              "type": "table-cell",
-              "content": "This is a table cell"
-            },
-            {
-              "type": "table-cell",
-              "content": "This is another table cell"
-            }
-          ]
-        }
-      ]
     },
     {
       "type": "warning",

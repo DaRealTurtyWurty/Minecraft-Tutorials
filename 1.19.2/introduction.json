@@ -37,14 +37,6 @@
       "type": "line-break"
     },
     {
-      "type": "list",
-      "content": [
-        "This is a list item",
-        "This is another list item"
-      ],
-      "ordered": false
-    },
-    {
       "type": "quote",
       "content": "This is a quote"
     },

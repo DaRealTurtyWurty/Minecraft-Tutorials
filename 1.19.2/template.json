@@ -39,8 +39,16 @@
     {
       "type": "list",
       "content": [
-        "This is a list item",
-        "This is another list item"
+        {
+          "type": "string",
+          "content": "This is a list item",
+          "id": "list-item-0"
+        },
+        {
+          "type": "string",
+          "content": "This is another list item",
+          "id": "list-item-1"
+        }
       ],
       "ordered": false
     },
@@ -51,6 +59,43 @@
     {
       "type": "link",
       "content": "https://google.com"
+    },
+    {
+      "type": "table",
+      "content": [
+        {
+          "type": "table-row",
+          "content": [
+            {
+              "type": "table-cell",
+              "content": "This is a table cell",
+              "id": "cell-0"
+            },
+            {
+              "type": "table-cell",
+              "content": "This is another table cell",
+              "id": "cell-1"
+            }
+          ],
+          "id": "row-0"
+        },
+        {
+          "type": "table-row",
+          "content": [
+            {
+              "type": "table-cell",
+              "content": "This is a table cell",
+              "id": "cell-2"
+            },
+            {
+              "type": "table-cell",
+              "content": "This is another table cell",
+              "id": "cell-3"
+            }
+          ],
+          "id": "row-1"
+        }
+      ]
     },
     {
       "type": "warning",
@@ -74,7 +119,7 @@
     },
     {
       "type": "embed",
-      "content": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+      "content": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
       "type": "math",
@@ -89,12 +134,18 @@
       "content": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
+      "type": "download",
+      "content": "../modding_tutorial.json"
+    },
+    {
       "type": "line-separator"
     },
     {
       "type": "paragraph",
       "content": "This is another paragraph",
-      "style": "text-align: center;"
+      "style": {
+        "textAlign": "center"
+      }
     }
   ]
 }

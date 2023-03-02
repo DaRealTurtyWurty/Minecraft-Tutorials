@@ -17,7 +17,7 @@
     },
     {
       "type": "code",
-      "content": "console.log(\"This is a code block\");",
+      "content": "console.log(\"This is a code block\");\nalert(\"It is bedtime!\");",
       "language": "javascript"
     },
     {

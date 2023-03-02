@@ -150,6 +150,10 @@
       "style": {
         "textAlign": "center"
       }
+    },
+    {
+      "type": "blink",
+      "content": "This is blinking text"
     }
   ]
 }

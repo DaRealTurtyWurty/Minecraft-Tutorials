@@ -45,7 +45,8 @@
         {
           "type": "string",
           "content": "This is a list item",
-          "id": "list-item-0"
+          "id": "list-item-0",
+          "list-style": "arrow"
         },
         {
           "type": "string",

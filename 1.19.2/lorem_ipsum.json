@@ -21,7 +21,7 @@
     },
     {
       "type": "code",
-      "content": "import java.io.BufferedReader;\nimport java.io.FileReader;\nimport java.io.IOException;\npublic class CSV {\n  public static void main(String[] args) {\n    String line = "";\n    String splitBy = \",\";\n    try {\n      //parsing a CSV file into BufferedReader class constructor  \n      BufferedReader br = new BufferedReader(new FileReader(\"C:\\Users\\Dell\\Desktop\\csvDemo.csv\"));\n      while ((line = br.readLine()) != null)\n      //returns a Boolean value  \n      {\n        String[] employee = line.split(splitBy);\n        //use comma as separator  \n        System.out.println(\"Emp[First Name=\" + employee[1] + \", Last Name=\" + employee[2] + \", Contact=\" + employee[3] + \", City= \" + employee[4] + \"]\");\n      }\n    }\n    catch(IOException e) {\n      e.printStackTrace();\n    }\n  }\n}",
+      "content": "import java.io.BufferedReader;\nimport java.io.FileReader;\nimport java.io.IOException;\npublic class CSV {\n  public static void main(String[] args) {\n    String line = \"\";\n    String splitBy = \",\";\n    try {\n      //parsing a CSV file into BufferedReader class constructor  \n      BufferedReader br = new BufferedReader(new FileReader(\"C:\\Users\\Dell\\Desktop\\csvDemo.csv\"));\n      while ((line = br.readLine()) != null)\n      //returns a Boolean value  \n      {\n        String[] employee = line.split(splitBy);\n        //use comma as separator  \n        System.out.println(\"Emp[First Name=\" + employee[1] + \", Last Name=\" + employee[2] + \", Contact=\" + employee[3] + \", City= \" + employee[4] + \"]\");\n      }\n    }\n    catch(IOException e) {\n      e.printStackTrace();\n    }\n  }\n}",
       "language": "java"
     },
     {

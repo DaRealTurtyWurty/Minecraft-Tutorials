@@ -6,7 +6,10 @@
     "template",
     "tutorial"
   ],
-  "author": "TurtyWurty",
+  "author": {
+    "name": "TurtyWurty",
+    "uuid": "6af8072798b84b3a8dda29bf30a837b5"
+  }
   "content": [
     {
       "type": "paragraph",
